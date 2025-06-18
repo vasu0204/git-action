@@ -3,8 +3,8 @@ on: push
 
 jobs:
   hello:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest  # <-- corrected line
 
     steps:
-    - name: print hello world
+    - name: Print Hello World
       run: echo "Hello world"
